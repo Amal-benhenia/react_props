@@ -1,0 +1,33 @@
+nav {
+    margin: 27px auto 0;
+    position: relative;
+    width: 75%;
+    height: 50px;
+    background-color:#6d849c;
+    border-radius: 8px;
+    font-size: 0;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  nav a {
+    line-height: 50px;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+  nav ul li a {
+    width: 100px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #3b5998;
+    border-radius: 12px;
+  }
