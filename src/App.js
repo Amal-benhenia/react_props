@@ -15,7 +15,7 @@ function App() {
     <div>
      <Nav/>
      <div className="aboutMe">
-     { <Profile  fullname="Amal Ben Henia" bio=" From theoretical physics to web develpoment." profession="Astrophysics and Condensed Matter Physics graduate student"  handleName={handleName}></Profile> }
+     { <Profile  fullname="Amal Ben Henia" bio=" From theoretical physics to web develpoment." profession="Astrophysics and Condensed Matter Physics graduate student"  handleName={handleName}> ME.jpg </Profile> }
      </div>
     </div>
   );
