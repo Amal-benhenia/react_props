@@ -25,7 +25,7 @@ Profile.defaultProps = {
 fullname:"Your Name",
 bio:"Your Degree ",
 profession:"Your Profession",
-children: "https://imgur.com/a/DTQs4Yf"
+children: "ME.jpg"
 };
 Profile.propTypes = {
  fullname: PropTypes.string,
